@@ -123,3 +123,21 @@ random.sort(key=takeSecond)
 # 输出类别
 print '排序列表：', random
 排序列表：[(4, 1), (2, 2), (1, 3), (3, 4)]
+
+
+3个单引号及3个双引号
+实际上3个单引号和3个双引号不经常用，但是在某些特殊格式的字符串下却有大用处。通常情况下我们用单引号或者双引号定义一个字符串的时候只能把字符串连在一起写成一行，如果非要写成多行，就得在每一行后面加一个\表示连字符，比如：
+str1 = "List of name:\
+        Hua Li\
+        Chao Deng"
+
+>>> str1 = """
+... List of name:
+... Hua Li # LiHua
+... Chao Deng # DengChao
+... """
+>>> print(str1)
+ 
+List of name:
+Hua Li # LiHua
+Chao Deng # DengChao
